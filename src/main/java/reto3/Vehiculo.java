@@ -22,4 +22,12 @@ public abstract class Vehiculo {
     }
 
     public abstract String getTipo();
+
+    @Override
+    public String toString() {
+        return getTipo() + " - " + modelo + 
+           " | Precio: $" + precio +
+           " | Velocidad: " + velocidadMaxima + " km/h";
+    }
+
 }

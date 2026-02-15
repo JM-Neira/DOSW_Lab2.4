@@ -1,7 +1,17 @@
+
+import reto4.Vehiculo;
+
 public class VehiculoEconomicoFactory implements VehiculoFactory {
     @Override
     public Vehiculo crearVehiculoTierra(String modelo) {
-        return new VehiculoTierra(modelo, 20000, 120);
+        switch (modelo) {
+            case "auto":
+                return new VehiculoTierra(modelo, 20000, 120);
+            case "bicicleta":
+                return new VehiculoTierra(modelo, 500, 40);
+            case "moto":
+                return new VehiculoTierra(modelo, 8000, 100);
+        }
     }
 
     @Override

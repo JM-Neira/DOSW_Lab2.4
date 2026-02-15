@@ -1,5 +1,5 @@
 public interface VehiculoFactory {
     Vehiculo crearVehiculoTierra(String modelo);
-    Vehiculo crearVehiculoAgua(String modelo);
-    Vehiculo crearVehiculoAire(String modelo);
+    Vehiculo crearVehiculoAcuatico(String modelo);
+    Vehiculo crearVehiculoAereo(String modelo);
 }
