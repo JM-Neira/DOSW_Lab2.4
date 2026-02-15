@@ -11,6 +11,9 @@
 *.sln.docstates
 *.env
 *.class
+*.astah
+*.asta
+*.asta.lock
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
