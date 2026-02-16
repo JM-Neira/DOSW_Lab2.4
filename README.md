@@ -69,7 +69,22 @@ Implementar el patrón Adapter para adaptar un servicio antiguo de conversión d
    - Desconoce la implementación subyacente
 
 ### Problema resuelto:
+
 El antiguo dueño "El Gringo" usaba una sola tasa para todas las conversiones (estafa). Ahora cada par de monedas tiene su tasa real y correcta.
+
+![Diagrama de clases](resources/images/reto4.png)
 
 ---
 
+## Reto 5: El Café Personalizado
+
+**Patrón de diseño:** Estructural  
+**Patrón utilizado:** Decorator  
+
+### Justificación  
+
+Se utilizó el patrón Decorator porque el sistema debe permitir agregar múltiples toppings, salsas y complementos a un café base sin modificar su estructura original.  
+
+Cada topping se implementa como un decorador que envuelve al café y añade comportamiento (descripción y precio adicional). Esto permite combinar múltiples ingredientes dinámicamente, cumplir con el principio Open/Closed y evitar la creación de múltiples subclases para cada combinación posible de café.
+
+![Diagrama de clases](resources/images/reto5.png)
