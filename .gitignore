@@ -10,6 +10,12 @@
 *.userosscache
 *.sln.docstates
 *.env
+*.class
+*.astah
+*.asta
+*.asta.lock
+/target/
+
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
